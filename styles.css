@@ -33,6 +33,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    position: relative;
+}
+.sidebar-box {
+    position: absolute;
+    background-color: #242627d8;
+    width: 100%;
+    opacity: 0.9;
+    top: 30%;
 }
 .head-section {
     background-color: var(--darker-background);
