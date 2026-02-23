@@ -1,0 +1,46 @@
+root { 
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #ecf0f1;
+    --text-color: #2c3e50;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+.sidebar {
+    width: 250px;
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.head-section {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.signup {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.create-account {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
