@@ -1,4 +1,4 @@
-root { 
+:root { 
     --primary-color: #3498db;
     --secondary-color: #2ecc71;
     --background-color: #ecf0f1;
@@ -6,12 +6,15 @@ root {
 }
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0;
-  font-size: 16px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
   
+  
+}
+.page { 
+    margin: 0;
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 .main-content {
     flex: 1;                  
@@ -36,7 +39,6 @@ body {
     background-color: var(--primary-color);
     color: var(--primary-color);
     padding: 20px;
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -44,7 +46,6 @@ body {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     padding: 20px;
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
