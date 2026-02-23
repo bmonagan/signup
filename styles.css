@@ -11,7 +11,8 @@
     src: url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf') format('opentype');
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Georgia', serif;
+  background-color: var(--lighter-background);
   margin: 0;
   
 }
@@ -68,9 +69,12 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 36px;
-
+    padding-top: 72px;
+    padding-right: 72px;
     text-align: left;
     text-wrap: wrap;
+    justify-content: center;
+    align-items: center
 }
 .signup {
     background-color: var(--lighter-background);
