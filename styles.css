@@ -19,7 +19,8 @@ body {
     flex-direction: row;
 }
 .main-content {
-    flex: 1;                  
+    flex: 1; 
+    width: 70%;                 
     display: flex;            
     flex-direction: column;
 }
@@ -35,6 +36,7 @@ body {
 }
 .head-section {
     background-color: var(--darker-background);
+    height: 30%;
     color: var(--primary-color);
     padding: 20px;
     display: flex;
@@ -43,6 +45,7 @@ body {
 .signup {
     background-color: var(--primary-color);
     color: var(--primary-color);
+    height: 40%;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -50,6 +53,7 @@ body {
 .create-account {
     background-color: var(--darker-background);
     color: var(--primary-color);
+    height: 35%;
     padding: 20px;
     display: flex;
     flex-direction: column;
