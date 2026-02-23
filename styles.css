@@ -67,6 +67,10 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    font-size: 36px;
+
+    text-align: left;
+    text-wrap: wrap;
 }
 .signup {
     background-color: var(--lighter-background);
