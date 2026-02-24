@@ -81,7 +81,19 @@ body {
     height: 40%;
     padding: 20px;
     display: flex;
+    flex-direction: row;
+}
+.signup-left-column {
+    width: 50%;
+    display: flex;
     flex-direction: column;
+    gap: 16px;
+}
+.signup-right-column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .create-account {
     background-color: var(--darker-background);
