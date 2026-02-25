@@ -159,3 +159,13 @@ label {
     padding: 15px;
     border-radius: 15px;
 }
+.create-account-text {
+    font-size: 24px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.create-account-text a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
