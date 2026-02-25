@@ -16,6 +16,13 @@ input[type="text"], input[type="email"], input[type="password"],input[type= "num
     
     
 }
+input:focus {
+    outline: none;
+    border: 2px solid var(--primary-color);
+}
+input.error {
+    border: 2px solid red;
+}
 body {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   background-color: var(--lighter-background);
@@ -116,15 +123,16 @@ body {
     flex-direction: column;
 }
 .form-group {
-display: flex;
-flex-direction: column;
-margin-bottom: 15px; 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; 
+    border-radius: 6px;
 }
 
 label {
     margin-bottom: 5px;
     width: 50%;
-    color: #000000;
+    color: var(--text-color);
     font-weight: bold;
 }
 .create-account {
