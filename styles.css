@@ -1,7 +1,7 @@
 :root { 
     --primary-color: #3498db;
     --primary-text-color: #000000;
-    --secondary-color: #2ecc71;
+    --secondary-color: #596D48;
     --lighter-background: #F0F4F8;
     --darker-background: #D8DDE5;
     --text-color: #2c3e50;
@@ -138,7 +138,7 @@ label {
 .create-account {
     background-color: var(--darker-background);
     height: 35%;
-    padding: 20px;
+    padding: 36px;
     display: flex;
     flex-direction: column;
 }
@@ -150,3 +150,12 @@ label {
     display: block;
 }
 
+.create-account-button { 
+    color: white;
+    font-size: 36px;
+    background-color: var(--secondary-color);
+    width: 25%;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 15px;
+}
