@@ -11,7 +11,7 @@
     src: url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf') format('opentype');
 }
 input[type="text"], input[type="email"], input[type="password"],input[type= "number"] {
-    width: 30%;
+    width: 50%;
     padding: 12px 20px;
     
     
@@ -103,17 +103,29 @@ body {
     width: 100%;
 }
 .signup-left-column {
+    margin-left: 20px;
     width: 50%;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
 }
 .signup-right-column {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+}
+.form-group {
+display: flex;
+flex-direction: column;
+margin-bottom: 15px; 
+}
+
+label {
+    margin-bottom: 5px;
+    width: 50%;
+    color: #000000;
+    font-weight: bold;
 }
 .create-account {
     background-color: var(--darker-background);
