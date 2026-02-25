@@ -83,12 +83,17 @@ body {
     align-items: center
 }
 .signup {
+    display: flex;
+    flex-direction: column;
     background-color: var(--lighter-background);
     height: 40%;
     padding: 20px;
-    display: flex;
-    flex-direction: row;
     gap: 20px;
+}
+.signup-header {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 .signup form {
     display: flex;
