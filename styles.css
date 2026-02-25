@@ -78,16 +78,15 @@ body {
 .head-section {
     background-color: var(--darker-background);
     height: 30%;
-    padding: 20px;
+    padding: 48px;
     display: flex;
     flex-direction: column;
     font-size: 36px;
-    padding-top: 72px;
-    padding-right: 72px;
+    font-weight: bold;
     text-align: left;
     text-wrap: wrap;
-    justify-content: center;
-    align-items: center
+    justify-content: left;
+    align-items: left;
 }
 .signup {
     display: flex;
