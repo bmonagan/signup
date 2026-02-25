@@ -11,13 +11,13 @@
     src: url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf') format('opentype');
 }
 input[type="text"], input[type="email"], input[type="password"],input[type= "number"] {
-    
+    width: 30%;
     padding: 12px 20px;
     
     
 }
 body {
-  font-family: 'Georgia', serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   background-color: var(--lighter-background);
   margin: 0;
   
@@ -92,8 +92,9 @@ body {
 }
 .signup-header {
     margin: 0;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 36px;
+    color: #000000;
+    font-weight: bold;
 }
 .signup form {
     display: flex;
